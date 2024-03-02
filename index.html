@@ -317,5 +317,28 @@
     });
   </script>
   <!-- end owl carousel script -->
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.8.1/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyDgpKlYdEHxgdhT58Iu0vVom8phFx9Q6-o",
+      authDomain: "internationaltelenovela-e571e.firebaseapp.com",
+      projectId: "internationaltelenovela-e571e",
+      storageBucket: "internationaltelenovela-e571e.appspot.com",
+      messagingSenderId: "1028548464937",
+      appId: "1:1028548464937:web:385704fa279d8dbdbee738",
+      measurementId: "G-MW4331E1X2"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
 </body>
 </html>
