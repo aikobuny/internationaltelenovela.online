@@ -198,6 +198,7 @@ figure {
 img {
   vertical-align: middle;
   border-style: none;
+  width: 100%;
 }
 
 svg {
@@ -4170,7 +4171,7 @@ input[type="button"].btn-block {
 }
 
 .navbar-brand {
-  display: inline-block;
+  display: none;
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
@@ -6245,6 +6246,10 @@ a.close.disabled {
   transition: -webkit-transform 0.6s ease-in-out;
   transition: transform 0.6s ease-in-out;
   transition: transform 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out;
+}
+
+.carousel-item img {
+  height: 35vw;
 }
 
 @media (prefers-reduced-motion: reduce) {

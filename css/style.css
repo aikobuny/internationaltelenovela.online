@@ -74,7 +74,7 @@ body {
 }
 
 .header_section {
-  background-color: #151618;
+  background-color: #ffffff;
 }
 
 .header_section .container-fluid {
@@ -89,7 +89,7 @@ body {
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item .nav-link {
   margin: 10px 30px;
   padding: 0;
-  color: #ffffff;
+  color: #000000;
   text-align: center;
   position: relative;
 }
@@ -102,7 +102,7 @@ body {
   bottom: 0;
   width: 100%;
   height: 1px;
-  background-color: #ffffff;
+  background-color: #000000;
 }
 
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item.active a::after, .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item:hover a::after {
@@ -170,6 +170,7 @@ a:focus {
 }
 
 .navbar-brand::before {
+  display: none;
   content: "";
   position: absolute;
   left: -10px;
@@ -192,6 +193,7 @@ a:focus {
 .custom_nav-container .navbar-toggler .navbar-toggler-icon {
   background-image: url(../images/menu.png);
   background-size: 55px;
+  filter: brightness(0);
 }
 
 /*end header section*/
@@ -260,7 +262,7 @@ a:focus {
 }
 
 .slider_section #carouselExampleIndicators .carousel-indicators {
-  bottom: 45px;
+  bottom: 25px;
   margin: 0;
   -webkit-box-align: center;
       -ms-flex-align: center;

@@ -215,6 +215,7 @@ a:focus {
 .custom_nav-container .navbar-toggler .navbar-toggler-icon {
   background-image: url(../images/menu.png);
   background-size: 55px;
+  filter: brightness(0);
 }
 
 /*end header section*/
@@ -266,7 +267,7 @@ a:focus {
 
   #carouselExampleIndicators {
     .carousel-indicators {
-      bottom: 45px;
+      bottom: 25px;
       margin: 0;
       align-items: center;
 
