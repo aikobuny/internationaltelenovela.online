@@ -163,22 +163,11 @@ a:focus {
 }
 
 .navbar-brand span {
-  font-size: 20px;
-  color: #ffffff;
-  position: relative;
-  z-index: 3;
+  display: none;
 }
 
 .navbar-brand::before {
   display: none;
-  content: "";
-  position: absolute;
-  left: -10px;
-  bottom: 0;
-  width: 45px;
-  height: 45px;
-  background-color: #30ae69;
-  z-index: 2;
 }
 
 .custom_nav-container {
