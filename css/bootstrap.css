@@ -201,6 +201,11 @@ img {
   width: 100%;
 }
 
+.thumbnail-box img {
+  width: 17vw;
+  height: 25vw;
+}
+
 svg {
   overflow: hidden;
   vertical-align: middle;
