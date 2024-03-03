@@ -1,0 +1,96 @@
+{
+    "MY": [
+        {
+            "name": "Cukup Derita Itu",
+            "thumbnail": "images/telenovela/thumbnail/Cukup Derita Itu.jpg",
+            "desc": "A 2021 Malaysian television drama series directed by Along Kamaludin, starring Ruhainies, Hisyam Hamid, and Chacha Maembong.",
+            "country": "MY",
+            "year": 2024
+        },
+        {
+            "name": "Hati Yang Tersakiti",
+            "thumbnail": "images/telenovela/thumbnail/Hati Yang Tersakiti.jpg",
+            "desc": "A 2020 Malaysian television drama series directed by Feroz Kader starring Remy Ishak, Nad Zainal and Mimi Lana. This series will start airing on Samarinda TV3 Slot on 15 October 2020 replacing Bicara Cinta.",
+            "country": "MY",
+            "year": 2023
+        },
+        {
+            "name": "Maaf Tak Indah",
+            "thumbnail": "images/telenovela/thumbnail/Maaf Tak Indah.jpg",
+            "desc": "A 2020 Malaysian television drama series directed by Zamri Zakaria starring Azlee Khairi and Azar Azmi. Adapted from the 2018 novel of the same title by Emy Roberto.",
+            "country": "MY",
+            "year": 2023
+        },
+        {
+            "name": "Bukan Kahwin Paksa",
+            "thumbnail": "images/telenovela/thumbnail/Bukan Kahwin Paksa.jpg",
+            "desc": "A 2020 Malaysian television drama series directed by Idora Abdul Rahman, starring Kamal Adli and Hannah Delisha.",
+            "country": "MY",
+            "year": 2023
+        },
+        {
+            "name": "Jaga Aku Selamanya",
+            "thumbnail": "images/telenovela/thumbnail/Jaga Aku Selamanya.jpg",
+            "desc": "A 2023 Malaysian television drama series directed by Wan Alauddin bin Wan Zainuddin with Rashidi Ishak, starring Nadiya Nisaa, Baqir Jamalullail and Puteri Rafasya.",
+            "country": "MY",
+            "year": 2023
+        },
+        {
+            "name": "I Love You Mr Clown",
+            "thumbnail": "images/telenovela/thumbnail/I Love You Mr Clown.jpg",
+            "desc": "A 2023 Malaysian television drama series directed by Amie Maziah starring Nabil Aqil and Yuna Rahim.",
+            "country": "MY",
+            "year": 2023
+        },
+        {
+            "name": "Bawah Blok",
+            "thumbnail": "images/telenovela/thumbnail/Bawah Blok.jpg",
+            "desc": "A 2023 Malaysian television drama series directed by Shuhaimi Lua Abdullah starring Faiz Izzat, Harissa Adlynn and Amelia Christie.",
+            "country": "MY",
+            "year": 2023
+        },
+        {
+            "name": "Budak Tebing 3",
+            "thumbnail": "images/telenovela/thumbnail/Budak Tebing 3.jpg",
+            "desc": "A Malaysian television drama series starring an ensemble cast led by Adam Lee and Aedy Ashraf.",
+            "country": "MY",
+            "year": 2023
+        },
+        {
+            "name": "Sentuhan Najwa",
+            "thumbnail": "images/telenovela/thumbnail/Sentuhan Najwa.jpg",
+            "desc": "A 2022 Malaysian television drama series directed by Shuhaimi Zulkefli and starring Afifah Nasir, Alif Muhaimin and Ryry Ryun.",
+            "country": "MY",
+            "year": 2023
+        },
+        {
+            "name": "Adakah Engkau Menungguku",
+            "thumbnail": "images/telenovela/thumbnail/Adakah Engkau Menungguku.jpg",
+            "desc": "A 2022 Malaysian television drama series directed by Azmi Hatta, Starring Wanna Ali and Adam Lee.",
+            "country": "MY",
+            "year": 2023
+        },
+
+        {
+            "name": "Do You Love Me, Captain?",
+            "thumbnail": "images/telenovela/thumbnail/Do You Love Me, Captain.jpg",
+            "desc": "A 2022 Malaysian television drama series directed by Adam Hamid starring Ali Reza and Sharifah Rose.",
+            "country": "MY",
+            "year": 2023
+        },
+        {
+            "name": "Adakah Engkau Menungguku",
+            "thumbnail": "images/telenovela/thumbnail/Adakah Engkau Menungguku.jpg",
+            "desc": "A 2022 Malaysian television drama series directed by Azmi Hatta, Starring Wanna Ali and Adam Lee.",
+            "country": "MY",
+            "year": 2023
+        },
+        {
+            "name": "Life Lila",
+            "thumbnail": "images/telenovela/thumbnail/Life Lila.jpg",
+            "desc": "A 2022 Malaysian television drama series directed by Azmi Hatta, Starring Wanna Ali and Adam Lee.",
+            "country": "MY",
+            "year": 2023
+        }
+    ]
+}

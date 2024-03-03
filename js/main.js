@@ -6,9 +6,6 @@ function loadPrograms(type) {
     xhttp.onload = function() {
         data = JSON.parse(xhttp.responseText);
         let programs_count = data.length;
-        if (type == "featured") {
-            selection = "programs_featured";
-        }
         for (let i = 0; i < programs_count; i++) {
             let a = document.getElementsByClassName(selection)[0];
             let box = document.createElement("div");
@@ -33,12 +30,13 @@ function loadPrograms(type) {
         }
     }
     if (type == "featured") {
+        selection = "programs_featured";
         xhttp.open("GET", "api/featured.json");
+    }
+    if (type == "all") {
+        selection = "programs_all";
+        xhttp.open("GET", "api/programs.json")
     }
     xhttp.send();
     return data
-}
-
-function loadNews() {
-    ;
 }
