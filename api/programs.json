@@ -156,7 +156,7 @@
         },
         {
             "name": "Devil in Law",
-            "thumbnail": "images/telenovela/thumbnail/Devil in Law.jpeg",
+            "thumbnail": "images/telenovela/thumbnail/Devil in Law.jpg",
             "desc": "The series is about Phawinee, who is angry after learning that her sister was bullied by her mother and sister-in-law.",
             "country": "TH",
             "year": 2023
@@ -222,14 +222,14 @@
         },
         {
             "name": "Tierra De Esperanza",
-            "thumbnail": "images/telenovela/thumbnail/Tierra De Esperanza.jpg",
+            "thumbnail": "images/telenovela/thumbnail/Tierra De Esperanza.jpeg",
             "desc": "A Mexican telenovela produced by José Alberto Castro. The series is based on the 2005 American telenovela La Tormenta, created by Humberto Olivieri.",
             "country": "MX",
             "year": 2023
         },
         {
             "name": "Vencer La Culpa",
-            "thumbnail": "images/telenovela/thumbnail/Vencer La Culpa.jpg",
+            "thumbnail": "images/telenovela/thumbnail/Vencer La Culpa.jpeg",
             "desc": "A Mexican telenovela produced by Rosy Ocampo. The series is the fifth production of the \"Vencer\" franchise, and premiered on Las Estrellas on 26 June 2023.",
             "country": "MX",
             "year": 2023
