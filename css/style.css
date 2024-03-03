@@ -43,6 +43,12 @@ body {
   position: relative;
 }
 
+.heading_container h3 {
+  font-weight: bold;
+  position: relative;
+  margin: 3vw;
+}
+
 .heading_container h2::before {
   content: "";
   position: absolute;
