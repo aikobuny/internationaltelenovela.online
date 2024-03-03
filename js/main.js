@@ -67,7 +67,8 @@ function loadPrograms(type) {
     }
     if (type == "all") {
         selection = [
-            "programs_MY"
+            "programs_MY",
+            "proramgs_PH"
         ];
         xhttp.open("GET", "api/programs.json")
     }
