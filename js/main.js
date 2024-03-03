@@ -1,8 +1,9 @@
 /*! Main Script */
 function loadPrograms(type) {
     let xhttp = new XMLHttpRequest();
+    let data;
     xhttp.onload = function() {
-        let data = JSON.parse(xhttp.responseText);
+        data = JSON.parse(xhttp.responseText);
         let programs_count = data.length;
         if (type == "featured") {
             for (let i = 0; i < programs_count; i++) {
@@ -21,9 +22,9 @@ function loadPrograms(type) {
     }
     if (type == "featured") {
         xhttp.open("GET", "api/featured.json");
-        return data
     }
     xhttp.send();
+    return data
 }
 
 function loadNews() {
