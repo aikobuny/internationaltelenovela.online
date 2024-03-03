@@ -130,5 +130,10 @@ function topnav_activator() {
 
 window.addEventListener('load', function() {
     includeHTML();
-    topnav_activator();
+    
 })
+window.onload = function () {
+    setTimeout(()=>{
+        topnav_activator();
+    }, 500)
+}
