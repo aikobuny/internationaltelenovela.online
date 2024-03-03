@@ -1,26 +1,30 @@
-{
-    "Hati Yang Tersakiti": {
+[
+    {
+        "name": "Hati Yang Tersakiti",
         "thumbnail": "images/telenovela/thumbnail/Hati Yang Tersakiti.jpg",
         "desc": "A 2020 Malaysian television drama series directed by Feroz Kader starring Remy Ishak, Nad Zainal and Mimi Lana. This series will start airing on Samarinda TV3 Slot on 15 October 2020 replacing Bicara Cinta.",
         "a": "",
         "country": "MY"
     },
-    "Jaga Aku Selamanya": {
+    {
+        "name": "Jaga Aku Selamanya",
         "thumbnail": "images/telenovela/thumbnail/Jaga Aku Selamanya.jpg",
         "desc": "A 2023 Malaysian television drama series directed by Wan Alauddin bin Wan Zainuddin with Rashidi Ishak, starring Nadiya Nisaa, Baqir Jamalullail and Puteri Rafasya.",
         "a": "",
         "country": "MY"
     },
-    "Maaf Tak Indah": {
+    {
+        "name": "Maaf Tak Indah",
         "thumbnail": "images/telenovela/thumbnail/Maaf Tak Indah.jpg",
         "desc": "A 2020 Malaysian television drama series directed by Zamri Zakaria starring Azlee Khairi and Azar Azmi. Adapted from the 2018 novel of the same title by Emy Roberto.",
         "a": "",
         "country": "MY"
     },
-    "Sentuhan Najwa": {
+    {
+        "name": "Sentuhan Najwa",
         "thumbnail": "images/telenovela/thumbnail/Sentuhan Najwa.jpg",
         "desc": "A 2022 Malaysian television drama series directed by Shuhaimi Zulkefli and starring Afifah Nasir, Alif Muhaimin and Ryry Ryun",
         "a": "",
         "country": "MY"
     }
-}
+]
