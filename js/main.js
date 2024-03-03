@@ -135,5 +135,5 @@ window.addEventListener('load', function() {
 window.onload = function () {
     setTimeout(()=>{
         topnav_activator();
-    }, 500)
+    }, 1000)
 }
