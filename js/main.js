@@ -34,7 +34,7 @@ function loadPrograms(type) {
                 let country = selection[_i].slice(-2)
                 let programs_count = data[country].length;
                 for (let i = 0; i < programs_count; i++) {
-                    let a = document.getElementsByClassName(selection[_i])[0];
+                    let a = document.getElementsByClassName("programs_"+selection[_i])[0];
                     let box = document.createElement("div");
                     box.classList.add("box");
                     a.appendChild(box);
@@ -61,14 +61,16 @@ function loadPrograms(type) {
     }
     if (type == "featured") {
         selection = [
-            "programs_featured"
+            "programs_featured",
         ];
         xhttp.open("GET", "api/featured.json");
     }
     if (type == "all") {
         selection = [
-            "programs_MY",
-            "proramgs_PH"
+            "MY",
+            "PH",
+            "TH",
+            "MX",
         ];
         xhttp.open("GET", "api/programs.json")
     }

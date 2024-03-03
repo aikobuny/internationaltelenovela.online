@@ -3,28 +3,28 @@
         {
             "name": "Cukup Derita Itu",
             "thumbnail": "images/telenovela/thumbnail/Cukup Derita Itu.jpg",
-            "desc": "A 2021 Malaysian television drama series directed by Along Kamaludin, starring Ruhainies, Hisyam Hamid, and Chacha Maembong.",
+            "desc": "A 2021-2024 Malaysian television drama series directed by Along Kamaludin, starring Ruhainies, Hisyam Hamid, and Chacha Maembong.",
             "country": "MY",
             "year": 2024
         },
         {
             "name": "Hati Yang Tersakiti",
             "thumbnail": "images/telenovela/thumbnail/Hati Yang Tersakiti.jpg",
-            "desc": "A 2020 Malaysian television drama series directed by Feroz Kader starring Remy Ishak, Nad Zainal and Mimi Lana. This series will start airing on Samarinda TV3 Slot on 15 October 2020 replacing Bicara Cinta.",
+            "desc": "A 2020-2023 Malaysian television drama series directed by Feroz Kader starring Remy Ishak, Nad Zainal and Mimi Lana. This series will start airing on Samarinda TV3 Slot on 15 October 2020 replacing Bicara Cinta.",
             "country": "MY",
             "year": 2023
         },
         {
             "name": "Maaf Tak Indah",
             "thumbnail": "images/telenovela/thumbnail/Maaf Tak Indah.jpg",
-            "desc": "A 2020 Malaysian television drama series directed by Zamri Zakaria starring Azlee Khairi and Azar Azmi. Adapted from the 2018 novel of the same title by Emy Roberto.",
+            "desc": "A 2020-2023 Malaysian television drama series directed by Zamri Zakaria starring Azlee Khairi and Azar Azmi. Adapted from the 2018 novel of the same title by Emy Roberto.",
             "country": "MY",
             "year": 2023
         },
         {
             "name": "Bukan Kahwin Paksa",
             "thumbnail": "images/telenovela/thumbnail/Bukan Kahwin Paksa.jpg",
-            "desc": "A 2020 Malaysian television drama series directed by Idora Abdul Rahman, starring Kamal Adli and Hannah Delisha.",
+            "desc": "A 2020-2023 Malaysian television drama series directed by Idora Abdul Rahman, starring Kamal Adli and Hannah Delisha.",
             "country": "MY",
             "year": 2023
         },
@@ -59,14 +59,14 @@
         {
             "name": "Sentuhan Najwa",
             "thumbnail": "images/telenovela/thumbnail/Sentuhan Najwa.jpg",
-            "desc": "A 2022 Malaysian television drama series directed by Shuhaimi Zulkefli and starring Afifah Nasir, Alif Muhaimin and Ryry Ryun.",
+            "desc": "A 2022-2023 Malaysian television drama series directed by Shuhaimi Zulkefli and starring Afifah Nasir, Alif Muhaimin and Ryry Ryun.",
             "country": "MY",
             "year": 2023
         },
         {
             "name": "Adakah Engkau Menungguku",
             "thumbnail": "images/telenovela/thumbnail/Adakah Engkau Menungguku.jpg",
-            "desc": "A 2022 Malaysian television drama series directed by Azmi Hatta, Starring Wanna Ali and Adam Lee.",
+            "desc": "A 2022-2023 Malaysian television drama series directed by Azmi Hatta, Starring Wanna Ali and Adam Lee.",
             "country": "MY",
             "year": 2023
         },
@@ -74,14 +74,14 @@
         {
             "name": "Do You Love Me, Captain?",
             "thumbnail": "images/telenovela/thumbnail/Do You Love Me Captain.jpg",
-            "desc": "A 2022 Malaysian television drama series directed by Adam Hamid starring Ali Reza and Sharifah Rose.",
+            "desc": "A 2022-2023 Malaysian television drama series directed by Adam Hamid starring Ali Reza and Sharifah Rose.",
             "country": "MY",
             "year": 2023
         },
         {
             "name": "Life Lila",
             "thumbnail": "images/telenovela/thumbnail/Life Lila.jpg",
-            "desc": "A 2022 Malaysian television drama series directed by Azmi Hatta, Starring Wanna Ali and Adam Lee.",
+            "desc": "A 2022-2023 Malaysian television drama series directed by Azmi Hatta, Starring Wanna Ali and Adam Lee.",
             "country": "MY",
             "year": 2023
         }
@@ -135,6 +135,103 @@
             "thumbnail": "images/telenovela/thumbnail/Senior High.jpg",
             "desc": "a Philippine teen drama television series that aired on Kapamilya Channel and streamed on iWantTFC. Directed by Onat Diaz and Andoy Ranay.",
             "country": "PH",
+            "year": 2023
+        }
+    ],
+
+    "TH": [
+        {
+            "name": "The Jungle",
+            "thumbnail": "images/telenovela/thumbnail/The Jungle.jpeg",
+            "desc": "A romantic drama about a gang of men who lack empathy and play with women's feelings.",
+            "country": "TH",
+            "year": 2023
+        },
+        {
+            "name": "Faceless Love",
+            "thumbnail": "images/telenovela/thumbnail/Faceless Love.jpg",
+            "desc": "Faceless Love is a Thai television directed by Koo Ekkasit Trakulkasemsuk. Its cast includes Dew Jirawat Sutivanichsak, Kao Supassara Thanachart, and Luke Ishikawa Plowden.",
+            "country": "TH",
+            "year": 2023
+        },
+        {
+            "name": "Devil in Law",
+            "thumbnail": "images/telenovela/thumbnail/Devil in Law.jpeg",
+            "desc": "The series is about Phawinee, who is angry after learning that her sister was bullied by her mother and sister-in-law.",
+            "country": "TH",
+            "year": 2023
+        },
+        {
+            "name": "Moonlight Chicken",
+            "thumbnail": "images/telenovela/thumbnail/Moonlight Chicken.jpg",
+            "desc": "The series is about Jim, a diner owner who sells Hainanese chicken rice, and Wen, a drunk customer who he meets in his diner.",
+            "country": "TH",
+            "year": 2023
+        },
+        {
+            "name": "Because of Love",
+            "thumbnail": "images/telenovela/thumbnail/Because of Love.jpg",
+            "desc": "A 2022-2023 TV series that is a romance-melodrama. The series is about a single mother named Tan Jing who has a son with a congenital heart disease.",
+            "country": "TH",
+            "year": 2023
+        },
+        {
+            "name": "You Touched My Heart",
+            "thumbnail": "images/telenovela/thumbnail/You Touched My Heart.jpg",
+            "desc": "The series is about two families whose business problems get involved, including the death of Anyamanee's brother.",
+            "country": "TH",
+            "year": 2023
+        },
+        {
+            "name": "Return Man",
+            "thumbnail": "images/telenovela/thumbnail/Return Man.jpg",
+            "desc": "Pribprao hires Return Man, owned by Yodyuth, to recover her cat. Impressed by his ability to not only return her cat but also enact revenge against her ex who stole it, Pribprao decides to apply to work for the company.",
+            "country": "TH",
+            "year": 2023
+        },
+        {
+            "name": "The Interns",
+            "thumbnail": "images/telenovela/thumbnail/The Interns.jpg",
+            "desc": "A group of newly graduated doctors begin their internships at Maharak Hospital. Lin hopes to impress Dr. Thida, the country's most famous brain surgeon so that she'll pick her as her protégé.",
+            "country": "TH",
+            "year": 2023
+        }
+    ],
+
+    "MX": [
+        {
+            "name": "Perdona Nuestros Pecados",
+            "thumbnail": "images/telenovela/thumbnail/Perdona Nuestros Pecados.jpeg",
+            "desc": "A Mexican television series produced by Lucero Suárez. It is based on the Chilean telenovela of the same name, created by Pablo Illanes.",
+            "country": "MX",
+            "year": 2023
+        },
+        {
+            "name": "Golpe De Suerte",
+            "thumbnail": "images/telenovela/thumbnail/Golpe De Suerte.jpeg",
+            "desc": "A Mexican telenovela produced by Nicandro Díaz González. It is an adaptation of the Chilean telenovela Si yo fuera rico, created by Rodrigo Cuevas.",
+            "country": "MX",
+            "year": 2023
+        },
+        {
+            "name": "Minas De Pasión",
+            "thumbnail": "images/telenovela/thumbnail/Minas De Pasión.jpeg",
+            "desc": "A Mexican telenovela produced by Pedro Ortiz de Pinedo. The series is based on the 2013 American telenovela La Patrona, itself an adaptation of the 1984 Venezuelan telenovela La dueña.",
+            "country": "MX",
+            "year": 2023
+        },
+        {
+            "name": "Tierra De Esperanza",
+            "thumbnail": "images/telenovela/thumbnail/Tierra De Esperanza.jpg",
+            "desc": "A Mexican telenovela produced by José Alberto Castro. The series is based on the 2005 American telenovela La Tormenta, created by Humberto Olivieri.",
+            "country": "MX",
+            "year": 2023
+        },
+        {
+            "name": "Vencer La Culpa",
+            "thumbnail": "images/telenovela/thumbnail/Vencer La Culpa.jpg",
+            "desc": "A Mexican telenovela produced by Rosy Ocampo. The series is the fifth production of the \"Vencer\" franchise, and premiered on Las Estrellas on 26 June 2023.",
+            "country": "MX",
             "year": 2023
         }
     ]
