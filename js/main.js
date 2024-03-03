@@ -30,7 +30,7 @@ function loadPrograms(type) {
                 detail_box.appendChild(p)
             }
         } else {
-            for (let _i = 0; i < selection.length; _i++) {
+            for (let _i = 0; _i < selection.length; _i++) {
                 let country = selection[_i].slice(-2)
                 let programs_count = data[country].length;
                 for (let i = 0; i < programs_count; i++) {
