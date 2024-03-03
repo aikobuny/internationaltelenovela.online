@@ -106,3 +106,29 @@ function loadPrograms(type) {
     xhttp.send();
     return data
 }
+
+function topnav_activator() {
+    let pathname = window.location.pathname;
+    let sel = ""
+    if (pathname == "/") {
+        sel = "nav-home";
+    }
+    if (pathname == "/programs") {
+        sel = "nav-programs";
+    }
+    if (pathname == "/academy") {
+        sel = "nav-academy";
+    }
+    if (pathname == "/about") {
+        sel = "nav-about";
+    }
+    if (pathname == "/contact") {
+        sel = "nav-contact";
+    }
+    document.getElementById(sel).classList.add("active");
+}
+
+window.addEventListener('load', function() {
+    includeHTML();
+    topnav_activator();
+})
