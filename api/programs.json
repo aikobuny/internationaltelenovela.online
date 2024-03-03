@@ -79,17 +79,62 @@
             "year": 2023
         },
         {
-            "name": "Adakah Engkau Menungguku",
-            "thumbnail": "images/telenovela/thumbnail/Adakah Engkau Menungguku.jpg",
-            "desc": "A 2022 Malaysian television drama series directed by Azmi Hatta, Starring Wanna Ali and Adam Lee.",
-            "country": "MY",
-            "year": 2023
-        },
-        {
             "name": "Life Lila",
             "thumbnail": "images/telenovela/thumbnail/Life Lila.jpg",
             "desc": "A 2022 Malaysian television drama series directed by Azmi Hatta, Starring Wanna Ali and Adam Lee.",
             "country": "MY",
+            "year": 2023
+        }
+    ],
+
+    "PH": [
+        {
+            "name": "Linlang",
+            "thumbnail": "images/telenovela/thumbnail/Linlang.jpeg",
+            "desc": "A thriller drama series directed by Jojo Saguin and FM Reyes, and starring Kim Chiu. The international title is Deceit.",
+            "country": "PH",
+            "year": 2023
+        },
+        {
+            "name": "Dirty Linen",
+            "thumbnail": "images/telenovela/thumbnail/Dirty Linen.jpeg",
+            "desc": "A Philippine revenge drama television series that aired on Kapamilya Channel. Directed by Onat Diaz and Andoy Ranay, it stars Janine Gutierrez, Zanjoe Marudo, Seth Fedelin and Francine Diaz.",
+            "country": "PH",
+            "year": 2023
+        },
+        {
+            "name": "The Seed of Love",
+            "thumbnail": "images/telenovela/thumbnail/The Seed of Love.jpeg",
+            "desc": "A 2023 Philippine television drama series broadcast by GMA Network. Directed by Ricky Davao, it stars Glaiza de Castro.",
+            "country": "PH",
+            "year": 2023
+        },
+        {
+            "name": "Maria Clara at Ibarra",
+            "thumbnail": "images/telenovela/thumbnail/Maria Clara at Ibarra.jpg",
+            "desc": "The series is about a nursing student who is transported into the world of a novel after wishing to leave her country. There, she meets new people and learns about history, love, and mutual understanding.",
+            "country": "PH",
+            "year": 2023
+        },
+        {
+            "name": "Unbreak My Heart",
+            "thumbnail": "images/telenovela/thumbnail/Unbreak My Heart.jpg",
+            "desc": "A 2023 Philippine romantic drama television series broadcast by GMA Network. Directed by Emmanuel Quindo Palo and Dolly Dulu, it stars Joshua Garcia, Gabbi Garcia, Richard Yap and Jodi Sta. Maria.",
+            "country": "PH",
+            "year": 2023
+        },
+        {
+            "name": "Can't Buy Me Love",
+            "thumbnail": "images/telenovela/thumbnail/Can't Buy Me Love.jpeg",
+            "desc": "A Philippine romantic drama television series produced by ABS-CBN Studios other broadcast syndication. Directed by Mae Cruz-Alviar, Cathy Garcia-Sampana, and Ian D. Loreños.",
+            "country": "PH",
+            "year": 2023
+        },
+        {
+            "name": "Senior High",
+            "thumbnail": "images/telenovela/thumbnail/Senior High.jpg",
+            "desc": "a Philippine teen drama television series that aired on Kapamilya Channel and streamed on iWantTFC. Directed by Onat Diaz and Andoy Ranay.",
+            "country": "PH",
             "year": 2023
         }
     ]
