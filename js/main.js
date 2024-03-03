@@ -4,7 +4,6 @@ function loadPrograms(type) {
     xhttp.onload = function() {
         let data = JSON.parse(xhttp.responseText);
         let programs_count = data.length;
-        console.log(data);
         if (type == "featured") {
             for (let i = 0; i < programs_count; i++) {
                 let a = document.getElementsByClassName("programs_featured")[0];
@@ -22,6 +21,7 @@ function loadPrograms(type) {
     }
     if (type == "featured") {
         xhttp.open("GET", "api/featured.json");
+        return data
     }
     xhttp.send();
 }
