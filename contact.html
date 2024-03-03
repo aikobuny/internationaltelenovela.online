@@ -12,7 +12,7 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
 
-  <title>International Telenovela</title>
+  <title>Cryptop</title>
 
   <!-- slider stylesheet -->
   <!-- slider stylesheet -->
@@ -30,7 +30,7 @@
   <link href="css/responsive.css" rel="stylesheet" />
 </head>
 
-<body style="color: black;">
+<body>
   <div class="hero_area">
     <!-- header section strats -->
     <header class="header_section">
@@ -46,11 +46,11 @@
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
-              <ul class="navbar-nav">
+              <ul class="navbar-nav  ">
                 <li class="nav-item">
                   <a class="nav-link" href="index.html">Home</a>
                 </li>
-                <li class="nav-item ">
+                <li class="nav-item active">
                   <a class="nav-link" href="programs.html"> Programs </a>
                 </li>
                 <li class="nav-item">
@@ -62,7 +62,7 @@
                 <li class="nav-item">
                   <a class="nav-link" href="contact.html"> Contact </a>
                 </li>
-                <li class="nav-item active">
+                <li class="nav-item">
                   <a class="nav-link" href="login.html"> Login </a>
                 </li>
               </ul>
@@ -76,29 +76,93 @@
         </nav>
       </div>
     </header>
+    <!-- end header section -->
   </div>
-  <!-- end header section -->
 
-    <div class = "login-container">
-        <div id= "main">
-            <h1>Sign In</h1>
-            <input id = "email" type = "text" placeholder = "Email"></input>
-            <input id = "password" type = "password" placeholder = "Password"></input>
-            <button id = "submit">Submit</button>
-            <p><span>or</span></p>
-            <button id = "sign-up">Sign Up</button>
+  <!-- info section -->
+  <section class="info_section layout_padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="info_contact">
+            <div class="info_logo">
+              <a href="index.html">
+                <span>
+                  Telenovela
+                </span>
+              </a>
+            </div>
+            <h5>
+              Contact Us
+            </h5>
+            <div>
+              <div class="img-box">
+                <img src="images/location.png" style="width: 2vw;" alt="" />
+              </div>
+              <p>
+                -
+              </p>
+            </div>
+            <div>
+              <div class="img-box">
+                <img src="images/phone.png" style="width: 2vw;" alt="" />
+              </div>
+              <p>
+                +60 14-221 0780
+              </p>
+            </div>
+            <div>
+              <div class="img-box">
+                <img src="images/envelope.png" style="width: 2vw;" alt="" />
+              </div>
+              <p href="mailto:admin@internationaltelenovela.online">
+                admin@internationaltelenovela.online
+              </p>
+            </div>
+          </div>
         </div>
-        
-        <div id = "create-acct">
-            <h1>Create an Account</h1>
-            <input id = "email-signup" type = "text" placeholder = "Email *"></input>
-            <input id = "confirm-email-signup" type = "email" placeholder = "Confirm Email *"></input>
-            <input id = "password-signup" type = "password" placeholder = "Password *"></input>
-            <input id = "confirm-password-signup" type = "password" placeholder = "Confirm Password *"></input>
-            <button id = "create-acct-btn">Create Account</button>
-            <button id = "return-btn">Return to Login</button>
+        <div class="col-md-3">
+          <div class="info_info">
+            <h5>
+              -
+            </h5>
+            <p>
+              -
+            </p>
+          </div>
         </div>
+
+        <div class="col-md-3">
+          <div class="info_links">
+            <h5>
+              Useful Links
+            </h5>
+            <ul>
+              <li>
+                <a href="">
+                  -
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="info_form ">
+            <h5>
+              Newsletter
+            </h5>
+            <form action="">
+              <input type="email" placeholder="Enter your email" />
+              <button>
+                Subscribe
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
     </div>
+  </section>
+  <!-- end info_section -->
 
   <!-- footer section -->
   <section class="container-fluid footer_section">
@@ -110,9 +174,30 @@
   <!-- footer section -->
 
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
-  <script type="text/javascript" src="js/main.js">loadFeature();</script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
   </script>
-   <script type = "module" src = "js/script.js"></script>
+  <!-- owl carousel script 
+    -->
+  <script type="text/javascript">
+    $(".owl-carousel").owlCarousel({
+      loop: true,
+      margin: 0,
+      navText: [],
+      center: true,
+      autoplay: true,
+      autoplayHoverPause: true,
+      responsive: {
+        0: {
+          items: 1
+        },
+        1000: {
+          items: 3
+        }
+      }
+    });
+  </script>
+  <!-- end owl carousel script -->
 </body>
+
 </html>
