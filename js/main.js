@@ -107,23 +107,29 @@ function loadPrograms(type) {
     return data
 }
 
-function topnav_activator() {
+function main() {
     let pathname = window.location.pathname;
+    let MAIN_PAGE = document.getElementsByClassName("MAIN_PAGE")[0]
     let sel = ""
     if (pathname == "/") {
         sel = "nav-home";
+        MAIN_PAGE.innerHTML = "/path/home"
     }
     if (pathname == "/programs") {
         sel = "nav-programs";
+        MAIN_PAGE.innerHTML = "/path/programs"
     }
     if (pathname == "/academy") {
         sel = "nav-academy";
+        MAIN_PAGE.innerHTML = "/path/academy"
     }
     if (pathname == "/about") {
         sel = "nav-about";
+        MAIN_PAGE.innerHTML = "/path/about"
     }
     if (pathname == "/contact") {
         sel = "nav-contact";
+        MAIN_PAGE.innerHTML = "/path/contact"
     }
     document.getElementById(sel).classList.add("active");
 }
