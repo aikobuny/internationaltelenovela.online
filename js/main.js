@@ -92,7 +92,7 @@ function loadPrograms(type) {
         selection = [
             "programs_featured",
         ];
-        xhttp.open("GET", "api/featured.json");
+        xhttp.open("GET", "/api/featured.json");
     }
     if (type == "all") {
         selection = [
@@ -101,7 +101,7 @@ function loadPrograms(type) {
             "TH",
             "MX",
         ];
-        xhttp.open("GET", "api/programs.json")
+        xhttp.open("GET", "/api/programs.json")
     }
     xhttp.send();
     return data
