@@ -10,24 +10,40 @@
 
     <title>International Telenovela</title>
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet" />
-    <link href="css/style.css" rel="stylesheet" />
-    <link href="css/responsive.css" rel="stylesheet" />
+    <link href="/css/style.css" rel="stylesheet" />
+    <link href="/css/responsive.css" rel="stylesheet" />
     
-    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="/js/main.js"></script>
   </head>
 
   <body style="color: black;">
     <script>0</script>
-    <div include-html="block/topnav"></div>
+    <div include-html="/block/topnav"></div>
 
-    <object class="MAIN_PAGE"></object>
+    <div include-html="/block/gallery_slider"></div>
 
-    <div include-html="block/footer"></div>
+    <section class="how_section layout_padding">
+        <div class="heading_container">
+        <h2>
+            Featured Programs
+        </h2>
+        </div>
+        <div class="how_container programs_featured">
+        </div>
+        <div class="btn-box">
+        <a href="/programs">
+            More Programs
+        </a>
+        </div>
+    </section>
 
-    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.js"></script>
+
+    <div include-html="/block/footer"></div>
+
+    <script type="text/javascript" src="/js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="/js/bootstrap.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
     </script>
     <!-- owl carousel script 
@@ -50,6 +66,7 @@
         }
       });
     </script>
+    <script>loadPrograms("featured");</script>
     <!-- end owl carousel script -->
   </body>
 </html>
