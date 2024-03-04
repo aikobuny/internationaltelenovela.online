@@ -113,26 +113,28 @@ function main() {
     let sel = ""
     if (pathname == "/") {
         sel = "nav-home";
-        MAIN_PAGE.data = "/path/home.html"
+        MAIN_PAGE.data = "/path/home.html";
     }
     if (pathname == "/programs") {
         sel = "nav-programs";
-        MAIN_PAGE.data = "/path/programs.html"
+        MAIN_PAGE.data = "/path/programs.html";
     }
     if (pathname == "/academy") {
         sel = "nav-academy";
-        MAIN_PAGE.data = "/path/academy.html"
+        MAIN_PAGE.data = "/path/academy.html";
     }
     if (pathname == "/about") {
         sel = "nav-about";
-        MAIN_PAGE.data = "/path/about.html"
+        MAIN_PAGE.data = "/path/about.html";
     }
     if (pathname == "/contact") {
         sel = "nav-contact";
-        MAIN_PAGE.data = "/path/contact.html"
+        MAIN_PAGE.data = "/path/contact.html";
     }
-    document.getElementById(sel).classList.add("active");
     includeHTML();
+    setTimeout(()=>{
+        document.getElementById(sel).classList.add("active");
+    }, 1000);
 }
 window.onload = function () {
     main();
