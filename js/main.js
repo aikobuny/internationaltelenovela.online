@@ -112,9 +112,11 @@ function main() {
     let sel = ""
     if (pathname == "/") {
         sel = "nav-home";
+        loadPrograms("featured");
     }
     if (pathname == "/programs") {
         sel = "nav-programs";
+        loadPrograms("all");
     }
     if (pathname == "/academy") {
         sel = "nav-academy";
