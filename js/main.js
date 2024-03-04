@@ -132,14 +132,8 @@ function main() {
         MAIN_PAGE.innerHTML = "/path/contact"
     }
     document.getElementById(sel).classList.add("active");
-}
-
-window.addEventListener('load', function() {
     includeHTML();
-    
-})
+}
 window.onload = function () {
-    setTimeout(()=>{
-        topnav_activator();
-    }, 1000)
+    main();
 }
